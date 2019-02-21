@@ -35,6 +35,7 @@
       getSeconds(){
         setInterval(() => {
           this.seconds = ((new Date()).getTime()/1000).toFixed(0)
+          // this.getTime
         }, 1000);
       },
       getTime(){
@@ -42,22 +43,19 @@
           this.timer = this.seconds - (this.$cookie.get('timer')/1000).toFixed(0)
           this.minutes = Math.floor(this.timer / 60)
           this.hours = Math.floor(this.minutes / 60)
+          this.minutes = this.minutes % 60
           this.days = Math.floor(this.hours / 24)
           this.sec = this.timer % 60
+
         }, 1000);
       }
     },
     beforeMount(){
-      this.getSeconds()
+      this.getSeconds
     },
     mounted(){
-      this.getTime()
+      this.getTime
     },
-    methods:{
-      setCookie(){
-
-      }
-    }
   }
 
 </script>
