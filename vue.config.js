@@ -1,8 +1,4 @@
-// файл vue.config.js расположен в корне вашего репозитория
-// убедитесь, что обновили `yourProjectName` на имя вашего проекта GitLab
-
+ // vue.config.js
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/spa/'
-    : '/'
-}
+ publicPath: ‘<spa>’
+} 
