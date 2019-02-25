@@ -2,9 +2,9 @@
    pages: {
      index: {
        // точка входа для страницы
-       entry: 'src/index/main.js',
+       entry: 'src/main.js',
        // исходный шаблон
-       template: 'public/index.html',
+       template: './index.html',
        // в результате будет dist/index.html
        filename: 'index.html',
        // когда используется опция title, то <title> в шаблоне
