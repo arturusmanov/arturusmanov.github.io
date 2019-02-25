@@ -2,7 +2,7 @@
    pages: {
      index: {
        // точка входа для страницы
-       entry: 'src/main.js',
+       entry: './src/main.js',
        // исходный шаблон
        template: './index.html',
        // в результате будет dist/index.html
