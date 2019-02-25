@@ -11,8 +11,8 @@
             <div class="collapse navbar-collapse myNavStyle" id="navbarSupportedContent">
               <ul class="navbar-nav mx-auto  col nonPadding">
                 <router-link class="nBtn nav-link myNavItem" to="/" >Резюме</router-link>
-                <router-link class="nBtn nav-link myNavItem" to="/maps" >Карта</router-link>
-                <router-link class="nBtn nav-link myNavItem" to="/timer" >Таймер</router-link>
+                <router-link class="nBtn nav-link myNavItem" to="/#/maps" >Карта</router-link>
+                <router-link class="nBtn nav-link myNavItem" to="/#/timer" >Таймер</router-link>
               </ul>
             </div>
           </nav>
