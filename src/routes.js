@@ -45,6 +45,6 @@ export default new VueRouter({
       redirect: '/'
     }
   ],
-  mode: 'history',
+  // mode: 'history',
 
 })
