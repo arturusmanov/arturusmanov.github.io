@@ -78,14 +78,9 @@
       }
 
     },
-    computed: {
-    },
-
-    mounted(){
-        this.loadTimer2()
-    },
     created(){
       this.resource = this.$resource('http://localhost:3000/timer2')
+      this.loadTimer2()
     },
     beforeDestroy(){
       this.clearIntId()
