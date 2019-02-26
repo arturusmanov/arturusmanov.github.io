@@ -24,6 +24,14 @@ const Timer = resolve => {
   })
 }
 
+const Timer2 = resolve => {
+  require.ensure(['./pages/timer2.vue'], () => {
+    resolve(
+      require('./pages/timer2.vue')
+    )
+  })
+}
+
 export default new VueRouter({
   routes:[
     {
@@ -38,6 +46,11 @@ export default new VueRouter({
     {
       path: '/timer',
       component: Timer
+
+    },
+    {
+      path: '/timer2',
+      component: Timer2
 
     },
     {

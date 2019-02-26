@@ -5,7 +5,7 @@
     <div class="margTop container myContStyle ">
       <div class="loadCont">
 
-        <div>Вы находитесь на сайте: <div class="timerDiv">
+        <div class="mt-3 mb-3">Вы находитесь на сайте: <div class="timerDiv">
           <span v-if="days > 0">{{ days }} дн.</span>
           <span v-if="hours > 0">{{ hours }} час.</span>
           <span v-if="minutes > 0">{{ minutes }} мин.</span>

@@ -13,6 +13,7 @@
                 <router-link class="nBtn nav-link myNavItem" to="/" >Резюме</router-link>
                 <router-link class="nBtn nav-link myNavItem" to="/maps" >Карта</router-link>
                 <router-link class="nBtn nav-link myNavItem" to="/timer" >Таймер</router-link>
+                <router-link class="nBtn nav-link myNavItem" to="/timer2" >Таймер2</router-link>
               </ul>
             </div>
           </nav>
